@@ -1,0 +1,359 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>OceanBreeze Resorts - Manage Employees</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body onload="loadTable()">
+    <div class="main-wrapper">
+         <!-- Header Section Start -->
+         <div class="header-section">
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-center">
+
+                    <!-- Header Logo (Header Left) Start -->
+                    <div class="header-logo col-auto">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="">
+                        <img src="assets/images/logo/logo-light.png" class="logo-light" alt="">
+                        </a>
+                    </div>
+                    <!-- Header Logo (Header Left) End -->
+
+                    <!-- Header Right Start -->
+                    <div class="header-right flex-grow-1 col-auto">
+                        <div class="row justify-content-between align-items-center">
+
+                            <!-- Side Header Toggle & Search Start -->
+                            <div class="col-auto">
+                                <div class="row align-items-center">
+
+                                    <!--Side Header Toggle-->
+                                    <div class="col-auto"><button class="side-header-toggle"><i
+                                                class="zmdi zmdi-menu"></i></button></div>
+
+                                    <!--Header Search-->
+                                    <div class="col-auto">
+
+                                        <div class="header-search">
+
+                                            <button class="header-search-open d-block d-xl-none"><i
+                                                    class="zmdi zmdi-search"></i></button>
+
+                                            <div class="header-search-form">
+                                                <form action="#">
+                                                    <input type="text" placeholder="Search Here">
+                                                    <button><i class="zmdi zmdi-search"></i></button>
+                                                </form>
+                                                <button class="header-search-close d-block d-xl-none"><i
+                                                        class="zmdi zmdi-close"></i></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Side Header Toggle & Search End -->
+
+                            <!-- Header Notifications Area Start -->
+                            <div class="col-auto">
+
+                                <ul class="header-notification-area">
+
+                                    <!--User-->
+                                    <li class="adomx-dropdown col-auto">
+                                        <a class="toggle" href="#">
+                                            <span class="user">
+                                                <span class="avatar">
+                                                    <img src="assets/images/avatar/avatar-1.jpg" alt="">
+                                                    <span class="status"></span>
+                                                </span>
+                                                <span class="name">Madison Howard</span>
+                                            </span>
+                                        </a>
+
+                                        <!-- Dropdown -->
+                                        <div class="adomx-dropdown-menu dropdown-menu-user">
+                                            <div class="head">
+                                                <h5 class="name"><a href="#">Madison Howard</a></h5>
+                                                <a class="mail" href="#">mailnam@mail.com</a>
+                                            </div>
+                                            <div class="body">
+                                                <ul>
+                                                    <li><a href="#"><i class="zmdi zmdi-account"></i>Profile</a></li>
+                                                    <li><a href="#"><i class="zmdi zmdi-email-open"></i>Inbox</a></li>
+                                                    <li><a href="#"><i class="zmdi zmdi-wallpaper"></i>Activity</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"><i class="zmdi zmdi-settings"></i>Setting</a></li>
+                                                    <li><a href="#"><i class="zmdi zmdi-lock-open"></i>Sing out</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#"><i class="zmdi zmdi-paypal"></i>Payment</a></li>
+                                                    <li><a href="#"><i class="zmdi zmdi-google-pages"></i>Invoice</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <!-- Header Notifications Area End -->
+
+                        </div>
+                    </div>
+                    <!-- Header Right End -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Header Section End -->
+        <!-- Side Header Start -->
+        <div class="side-header show">
+            <button class="side-header-close"><i class="zmdi zmdi-close"></i></button>
+            <!-- Side Header Inner Start -->
+            <div class="side-header-inner custom-scroll">
+
+                <nav class="side-header-menu" id="side-header-menu">
+                    <ul>
+                        <li class="has-sub-menu"><a href="index.html"><i class="ti-home"></i> <span>Dashboard</span></a>
+                        </li>
+
+                        <li class="has-sub-menu"><a href="#"><i class="ti-crown"></i> <span>Manage Rooms</span></a>
+                            <ul class="side-header-sub-menu">
+                                <li><a href="manage-rooms.html"><span>Manage Rooms</span></a></li>
+                                <li><a href="add-product.html"><span>Add Rooms</span></a></li>
+                                <li><a href="add-hotel.html"><span>Add Hotel</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu"><a href="#"><i class="ti-crown"></i> <span>Manage Employees</span></a>
+                            <ul class="side-header-sub-menu">
+                                <li><a href="manage-employees.html"><span>Manage Employees</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub-menu"><a href="#"><i class="ti-notepad"></i> <span>Manage Bookings</span></a>
+                            <ul class="side-header-sub-menu">
+                                <li><a href="manage-bookings.html"><span>Bookings</span></a></li>
+                            </ul>
+                        </li>
+                     
+                        <li class="has-sub-menu"><a href="#"><i class="ti-pie-chart"></i> <span>Sales
+                                    Analysis</span></a>
+                                    <ul class="side-header-sub-menu">
+                                        <li><a href="sales-analysis.html"><span>Bookings</span></a></li>
+                                    </ul>
+                        </li>
+                        
+
+                    </ul>
+                </nav>
+
+            </div>
+            <!-- Side Header Inner End -->
+        </div>
+        <!-- Side Header End -->
+
+        <div class="content-body">
+            <div class="row justify-content-between align-items-center mb-10">
+                <div class="col-12 col-lg-auto mb-20">
+                    <div class="page-heading">
+                        <h3>OceanBreeze Resorts <span>/ Manage Bookings</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table table-vertical-middle">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Employees</th>
+                                    <th>Branch</th>
+                                    <th>Email</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bookingTableBody">
+                                <td id="id"></td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="container-fluid">
+                <div class="footer-copyright text-center">
+                    <p>2025 &copy; OceanBreeze Resorts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/manageBookings.js"></script>
+
+    <script>
+        async function loadTable() {
+            console.log("Loading bookings...");
+            try {
+                const response = await fetch("LoadEmployeeTable");
+                if (!response.ok) {
+                    throw new Error("Failed to load data");
+                }
+
+                const data = await response.json();
+
+                if (!data.success || !Array.isArray(data.adminList)) {
+                    throw new Error("Invalid data format");
+                }
+
+                const tableBody = document.getElementById("bookingTableBody");
+                tableBody.innerHTML = "";
+
+                data.adminList.forEach(item => {
+                    let row = document.createElement("tr");
+
+
+
+                    let settleButton;
+                    // if (item.branch_Types.branch_type === "Main") {
+                    if (item.status.state === "Active") {
+                        settleButton = `<button onclick="settle(${item.id}, 2)"  class="btn btn-danger">Set Inactive</button>`;
+                    } else {
+                        settleButton = `<button onclick="settle(${item.id}, 1)" class="btn btn-success">Set Active</button>`;
+                    }
+                    // } else {
+                    //     settleButton = `<button disable class="btn btn-secondary">No Permission</button>`;
+                    // }
+
+                    let updateButton = `<button onclick="update(${item.id})"  class="btn btn-dark">Update</button>`;
+
+
+                    row.innerHTML = `
+                <td>${item.id}</td>
+                <td>${item.first_name} ${item.last_name}</td>
+                <td>${item.branch_Types.branch_type}</td>
+                <td>${item.email}</td>
+                <td>${item.status.state}</td>
+                <td>${settleButton} ${updateButton}</td>
+            `;
+
+                    tableBody.appendChild(row);
+                });
+
+            } catch (error) {
+                console.error("Error loading bookings:", error);
+            }
+        }
+
+        window.onload = loadTable;
+
+
+        async function settle(id, status_id) {
+            try {
+                const response = await fetch(`EmployeeManagement?id=${id}&status_id=${status_id}`);
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    const errorMessage = errorData.message || "Error: Please Try Again Later..";
+                    throw new Error(errorMessage);
+                }
+
+                const result = await response.json();
+                if (result.status) {
+                    alert(result.message);
+                    window.location.reload();
+                } else {
+                    alert(result.message);
+                }
+
+            } catch (error) {
+                alert(error.message);
+                console.error("Error settling booking:", error);
+            }
+        }
+
+        async function update(id) {
+            const { value: formValues } = await Swal.fire({
+                title: "Update Admin",
+                html: `
+            <input id="swal-input1" class="swal2-input" type="text" placeholder="First Name">
+            <input id="swal-input2" class="swal2-input" type="text" placeholder="Last Name">
+            <input id="swal-input3" class="swal2-input" type="text" placeholder="Email">
+            <input id="swal-input4" class="swal2-input" type="password" placeholder="Password">
+            <select class="swal2-select text-center" id="branch">
+                <option value="0">Select Branch</option>
+                <option value="1">Main</option>
+                <option value="2">Sub</option>    
+            </select>
+        `,
+                focusConfirm: false,
+                confirmButtonText: "Update",
+                preConfirm: () => {
+                    return {
+                        firstName: document.getElementById("swal-input1").value,
+                        lastName: document.getElementById("swal-input2").value,
+                        email: document.getElementById("swal-input3").value,
+                        password: document.getElementById("swal-input4").value,
+                        branchId: document.getElementById("branch").value
+                    };
+                }
+            });
+
+            if (formValues) {
+                try {
+                    let response = await fetch("UpdateEmployee", { 
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            id: id, 
+                            ...formValues
+                        })
+                    });
+
+                    let result = await response.text();
+
+                    if (result === "success") {
+                        window.location.reload();
+                    } else {
+                        window.location.reload();
+                    }
+
+                } catch (error) {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Update Failed",
+                        text: error.message
+                    });
+                }
+            }
+        }
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

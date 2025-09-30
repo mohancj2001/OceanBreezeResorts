@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/oceanbreeze?useSSL=false&amp;allowPublicKeyRetrieval=true</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">20010406@Mcj</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- Hibernate Properties -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- Auto Sync (Schema Update) -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+         <!-- HikariCP Connection Pooling (Optimized for Performance) -->
+        <property name="hibernate.hikari.maximumPoolSize">20</property>
+        <property name="hibernate.hikari.idleTimeout">30000</property>
+        <property name="hibernate.hikari.connectionTimeout">30000</property>
+        <property name="hibernate.hikari.minimumIdle">5</property>
+        
+        <mapping class="entity.Customer"/>
+        <mapping class="entity.Status"/>
+        <mapping class="entity.Room_Types"/>
+        <mapping class="entity.Locations"/>
+        <mapping class="entity.Admin"/>
+        <mapping class="entity.Branch_Types"/>
+        <mapping class="entity.Hotel"/>
+        <mapping class="entity.Room_Images"/>
+        <mapping class="entity.Rooms"/>
+        <mapping class="entity.Payment_Status"/>
+        <mapping class="entity.Booking"/>
+        <mapping class="entity.Booking_Items"/>
+
+    </session-factory>
+</hibernate-configuration>
