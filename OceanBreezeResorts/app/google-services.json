@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "975079039917",
+    "project_id": "oceanapp-34737",
+    "storage_bucket": "oceanapp-34737.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975079039917:android:bf9f9fb28dc122a64eb724",
+        "android_client_info": {
+          "package_name": "com.oceanbreezeresorts.hotel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "api_key"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

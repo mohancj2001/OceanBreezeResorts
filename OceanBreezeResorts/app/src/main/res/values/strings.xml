@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">OceanBreeze Resorts</string>
+    <string name="start_btn">Get Start....</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_txt">"Welcome back! Glad to See you, Again!"</string>
+    <string name="forgot_password_txt">"Forgot Password?"</string>
+    <string name="account_text">"Don't have an account?"</string>
+    <string name="register_now_text">"Register Now"</string>
+    <string name="register_btn">"Register"</string>
+    <string name="register_text">"Hello! Register to get started"</string>
+    <string name="promt_fname">"First Name"</string>
+    <string name="promt_lname">"Last Name"</string>
+    <string name="promt_mobile">"Mobile"</string>
+    <string name="login_have_text">"Already have an account?"</string>
+    <string name="login_text">"Login Now"</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="book">Book Now!</string>
+    <string name="profile">User Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="location">Hotel Locations</string>
+    <string name="about">About Us</string>
+
+    <string name="version">v1.0.0</string>
+    <string name="web">www.OceanBreezeResorts.com</string>
+    <string name="mail">oceanbreezeresorts@gmail.com</string>
+    <string name="media">Social Media</string>
+
+    <string name="accountinfo">Account Info</string>
+    <string name="accountinfo_fname">First Name</string>
+    <string name="accountinfo_lname">Last Name</string>
+    <string name="accountinfo_mobile">Mobile</string>
+    <string name="accountinfo_email">Email</string>
+    <string name="accountinfo_password">Password</string>
+    <string name="accountinfo_update_btn">Update Profile</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_new_password">New Password</string>
+    <string name="forgot_password_new_password">Set New Password</string>
+    <string name="forgot_password_new_password_sub_title">Must be least 8 characters</string>
+    <string name="forgot_password_new_password_confirm_password">Confirm Password</string>
+    <string name="forgot_password_new_password_btn">Reset Password</string>
+    <string name="verify_code_text">We sent code to your Email</string>
+    <string name="verify_code">Code</string>
+    <string name="verify_code_continue">Continue</string>
+
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="rate">Rating</string>
+    <string name="price">Price</string>
+    <string name="rs">Rs.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
